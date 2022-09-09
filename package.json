@@ -18,8 +18,10 @@
     "url": "https://github.com/Romaleso261981/goit-js-hw-11/issues"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "simplelightbox": "^2.10.3"
   },
   "devDependencies": {

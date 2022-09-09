@@ -1,18 +1,10 @@
-// const submitBtn = document.getElementById('submitBtn');
-// submitBtn.addEventListener('click', submit);
-
-// const body = document.querySelector('body');
-// function submit (e) {
-//     e.preventDefault();    
-//     console.log('You clicked submit button');
-//     body.style.backgroundColor = 'red';
-// }
 
 // import './sass/main.scss';
 import SimpleLightbox from 'simplelightbox';
 import Notiflix from 'notiflix';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import card from 'src/templates/card.hbs';
+import { getImgParams, fetchGallery } from './services/api-service.js';
+// import card from 'src/templates/card.hbs';
 
 const refs = {
   form: document.querySelector('#search-form'),
