@@ -41,6 +41,7 @@ const getImages = e => {
   }
   getImgParams.page = 1;
   getImgParams.q = refs.input.value.trim();
+  console.log(refs.input.value.trim());
   fetchGallery(getImgParams)
     .then(data => {
       createImagesMarkup(data.hits);
